@@ -10,6 +10,8 @@ License:	GPLv2+
 BuildRoot:	%{_tmppath}/%name-%{version}-root
 BuildRequires:	cmake
 BuildRequires:	openvas-devel >= 4.0
+BuildRequires:	doxygen
+BuildRequires:	qt4-devel
 
 %description
 
