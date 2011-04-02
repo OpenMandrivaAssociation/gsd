@@ -12,8 +12,14 @@ BuildRequires:	cmake
 BuildRequires:	openvas-devel >= 4.0
 BuildRequires:	doxygen
 BuildRequires:	qt4-devel
+Requires:	openvas-manager
 
 %description
+The GSD is a desktop client that connects to the OpenVAS Manager using
+the OMP protocol.
+
+It uses the Qt framework for the GUI and is implemented in C++.  Main
+dependencies are qt4, gnutls, glib and openvas-libraries.
 
 %prep
 %setup -q -n %name-%version
