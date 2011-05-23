@@ -1,6 +1,6 @@
 Summary: 	Greenbone Security Desktop
 Name:		gsd
-Version:	1.1.1
+Version:	1.2.0
 Release:	%mkrel 1
 Source:		http://wald.intevation.org/frs/download.php/561/%name-%version.tar.gz
 Patch0:		openvas-administrator-1.1.1-build.patch
@@ -42,4 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/openvas/gsd_log.conf
 %{_bindir}/gsd
 %{_mandir}/man8/gsd.8*
+%{_datadir}/openvas/*.html
 %{_datadir}/openvas/translations/gsd_*.qm
