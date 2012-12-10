@@ -1,0 +1,20 @@
+--- gsd-1.2.2/src/omp_utilities.h.ompentity	2012-04-21 01:23:00.000000000 +0400
++++ gsd-1.2.2/src/omp_utilities.h	2012-11-02 14:31:13.679800775 +0400
+@@ -78,7 +78,7 @@ class omp_utilities : public QObject
+       };
+     typedef int omp_type;
+ 
+-    enum omp_entity_command
++    enum omp_entity_command_t
+       {
+         OMP_GET = 30,
+         OMP_CREATE = 31,
+@@ -91,7 +91,7 @@ class omp_utilities : public QObject
+       };
+     typedef int omp_entity_command;
+ 
+-    enum omp_task_command
++    enum omp_task_command_t
+       {
+         START = 40,
+         STOP = 41,
