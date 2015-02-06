@@ -1,7 +1,7 @@
 Summary: 	Greenbone Security Desktop
 Name:		gsd
 Version:	1.2.2
-Release:	1
+Release:	2
 Source0:		http://wald.intevation.org/frs/download.php/561/%name-%version.tar.gz
 patch1:		gsd-1.2.2.ompentity.patch
 Group:		System/Configuration/Networking
