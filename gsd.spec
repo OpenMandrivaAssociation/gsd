@@ -5,7 +5,7 @@ Release:	2
 Source0:		http://wald.intevation.org/frs/download.php/561/%name-%version.tar.gz
 patch1:		gsd-1.2.2.ompentity.patch
 Group:		System/Configuration/Networking
-Url:		http://www.openvas.org
+Url:		https://www.openvas.org
 License:	GPLv2+
 BuildRequires:	cmake
 BuildRequires:	openvas-devel >= 4.0
